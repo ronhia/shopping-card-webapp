@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping card</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <h1>Shopping card</h1>
+    <div class="products-container"></div>
+
+    <template id="template-product-card">
+        <article class="product-card">
+            <div class="product-card-image-container">
+                <img src="https://i.blogs.es/f9cf25/degustacion-patatas/450_1000.jpg" alt="">
+            </div>
+            <div class="product-card-info-container">
+                <h2 class="product-card-name">Product name</h2>
+                <hr class="product-card-divider">
+                <p class="product-card-description">Papas frescas preparadas en el momento, caseras, seleccionadas
+                    exclusivamente para tener una buena calidad y con un sabor inigualable.</p>
+            </div>
+            <div class="product-card-price-add-container">
+                <p class="product-card-price">3.50</p>
+                <button class="button-add">Add to card</button>
+            </div>
+        </article>
+    </template>
+</body>
+
+</html>
